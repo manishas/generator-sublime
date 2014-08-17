@@ -6,6 +6,7 @@ node_js:
   - 0.10.30
 
 before_script:
+  - npm search yeoman-generator
   - npm link
   - mkdir -p shippable/codecoverage
 after_success:
